@@ -1,4 +1,4 @@
-![version](https://gitlab.vgiscience.de/lbsn/lbsnstructure-php/version.svg) ![pipeline](https://gitlab.vgiscience.de/lbsn/lbsnstructure-php/badges/master/pipeline.svg)
+![version](https://lbsn.vgiscience.org/lbsnstructure-php/version.svg) ![pipeline](https://gitlab.vgiscience.de/lbsn/lbsnstructure-php/badges/master/pipeline.svg)
 
 # LBSNSTRUCTURE
 
