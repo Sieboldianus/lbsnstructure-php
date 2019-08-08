@@ -1,0 +1,30 @@
+release:
+  image: python:latest
+  before_script:
+      - pip install anybadge
+  stage: build
+  script:
+    # create badges (use version from python compiled spec)
+    - version_var=`sed -n "s/__version__ = '\(.*\)/\1/p" < . version/version.py`
+    - echo "Version is ${version_var::-1}"
+    - anybadge -l version --value="${version_var::-1}" --file=version.svg --color=green
+  artifacts:
+    paths:
+      - version.svg
+  only:
+  - master
+
+pages:
+  stage: deploy
+  script:
+    # create folder public for badges
+    - mkdir .public
+    - cp version.svg .public
+    - mv .public public
+  artifacts:
+    name: pages
+    paths:
+    - public
+  only:
+  - master
+
