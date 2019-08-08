@@ -16,6 +16,7 @@ composer require sieboldianus/lbsnstructure
 
 Import to php project with:  
 ```php
+use Lbsn\Structure\Post;
 require lbsnPost.php
 ```
 

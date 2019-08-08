@@ -9,9 +9,9 @@ use Google\Protobuf\Internal\RepeatedField;
 use Google\Protobuf\Internal\GPBUtil;
 
 /**
- * Generated from protobuf message <code>lbsn.structure.lbsnPlace</code>
+ * Generated from protobuf message <code>lbsn.structure.Place</code>
  */
-final class lbsnPlace extends \Google\Protobuf\Internal\Message
+final class Place extends \Google\Protobuf\Internal\Message
 {
     /**
      * Primary Key. A unique identifier of the object.

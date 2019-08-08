@@ -9,9 +9,9 @@ use Google\Protobuf\Internal\RepeatedField;
 use Google\Protobuf\Internal\GPBUtil;
 
 /**
- * Generated from protobuf message <code>lbsn.structure.lbsnPostReaction</code>
+ * Generated from protobuf message <code>lbsn.structure.PostReaction</code>
  */
-final class lbsnPostReaction extends \Google\Protobuf\Internal\Message
+final class PostReaction extends \Google\Protobuf\Internal\Message
 {
     /**
      * Primary Key. A unique identifier of the object.
@@ -44,7 +44,7 @@ final class lbsnPostReaction extends \Google\Protobuf\Internal\Message
      */
     private $reaction_latlng = '';
     /**
-     * Generated from protobuf field <code>.lbsn.structure.lbsnPostReaction.ReactionType reaction_type = 6;</code>
+     * Generated from protobuf field <code>.lbsn.structure.PostReaction.ReactionType reaction_type = 6;</code>
      */
     private $reaction_type = 0;
     /**
@@ -223,7 +223,7 @@ final class lbsnPostReaction extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.lbsn.structure.lbsnPostReaction.ReactionType reaction_type = 6;</code>
+     * Generated from protobuf field <code>.lbsn.structure.PostReaction.ReactionType reaction_type = 6;</code>
      * @return int
      */
     public function getReactionType()
@@ -232,13 +232,13 @@ final class lbsnPostReaction extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.lbsn.structure.lbsnPostReaction.ReactionType reaction_type = 6;</code>
+     * Generated from protobuf field <code>.lbsn.structure.PostReaction.ReactionType reaction_type = 6;</code>
      * @param int $var
      * @return $this
      */
     public function setReactionType($var)
     {
-        GPBUtil::checkEnum($var, \Lbsn\Structure\lbsnPostReaction_ReactionType::class);
+        GPBUtil::checkEnum($var, \Lbsn\Structure\PostReaction_ReactionType::class);
         $this->reaction_type = $var;
 
         return $this;

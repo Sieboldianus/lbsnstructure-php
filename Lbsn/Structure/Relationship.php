@@ -9,9 +9,9 @@ use Google\Protobuf\Internal\RepeatedField;
 use Google\Protobuf\Internal\GPBUtil;
 
 /**
- * Generated from protobuf message <code>lbsn.structure.lbsnRelationship</code>
+ * Generated from protobuf message <code>lbsn.structure.Relationship</code>
  */
-final class lbsnRelationship extends \Google\Protobuf\Internal\Message
+final class Relationship extends \Google\Protobuf\Internal\Message
 {
     /**
      * Primary Key. A unique identifier of the object.
@@ -20,7 +20,7 @@ final class lbsnRelationship extends \Google\Protobuf\Internal\Message
      */
     private $pkey = null;
     /**
-     * Generated from protobuf field <code>.lbsn.structure.lbsnRelationship.RelationshipType relationship_type = 2;</code>
+     * Generated from protobuf field <code>.lbsn.structure.Relationship.RelationshipType relationship_type = 2;</code>
      */
     private $relationship_type = 0;
 
@@ -67,7 +67,7 @@ final class lbsnRelationship extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.lbsn.structure.lbsnRelationship.RelationshipType relationship_type = 2;</code>
+     * Generated from protobuf field <code>.lbsn.structure.Relationship.RelationshipType relationship_type = 2;</code>
      * @return int
      */
     public function getRelationshipType()
@@ -76,13 +76,13 @@ final class lbsnRelationship extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.lbsn.structure.lbsnRelationship.RelationshipType relationship_type = 2;</code>
+     * Generated from protobuf field <code>.lbsn.structure.Relationship.RelationshipType relationship_type = 2;</code>
      * @param int $var
      * @return $this
      */
     public function setRelationshipType($var)
     {
-        GPBUtil::checkEnum($var, \Lbsn\Structure\lbsnRelationship_RelationshipType::class);
+        GPBUtil::checkEnum($var, \Lbsn\Structure\Relationship_RelationshipType::class);
         $this->relationship_type = $var;
 
         return $this;

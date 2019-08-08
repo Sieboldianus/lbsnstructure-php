@@ -18,7 +18,7 @@ final class CompositeKey extends \Google\Protobuf\Internal\Message
      * is constructed from the internal id (origin, 1= Instagram, 2= Flickr, 3= Twitter etc.)
      * and the services own, hashed or encrypted (gu)id
      *
-     * Generated from protobuf field <code>.lbsn.structure.lbsnOrigin origin = 1;</code>
+     * Generated from protobuf field <code>.lbsn.structure.Origin origin = 1;</code>
      */
     private $origin = null;
     /**
@@ -32,7 +32,7 @@ final class CompositeKey extends \Google\Protobuf\Internal\Message
      * @param array $data {
      *     Optional. Data for populating the Message object.
      *
-     *     @type \Lbsn\Structure\lbsnOrigin $origin
+     *     @type \Lbsn\Structure\Origin $origin
      *           Except for language, a Composite Key is used for all messages and
      *           is constructed from the internal id (origin, 1= Instagram, 2= Flickr, 3= Twitter etc.)
      *           and the services own, hashed or encrypted (gu)id
@@ -49,8 +49,8 @@ final class CompositeKey extends \Google\Protobuf\Internal\Message
      * is constructed from the internal id (origin, 1= Instagram, 2= Flickr, 3= Twitter etc.)
      * and the services own, hashed or encrypted (gu)id
      *
-     * Generated from protobuf field <code>.lbsn.structure.lbsnOrigin origin = 1;</code>
-     * @return \Lbsn\Structure\lbsnOrigin
+     * Generated from protobuf field <code>.lbsn.structure.Origin origin = 1;</code>
+     * @return \Lbsn\Structure\Origin
      */
     public function getOrigin()
     {
@@ -62,13 +62,13 @@ final class CompositeKey extends \Google\Protobuf\Internal\Message
      * is constructed from the internal id (origin, 1= Instagram, 2= Flickr, 3= Twitter etc.)
      * and the services own, hashed or encrypted (gu)id
      *
-     * Generated from protobuf field <code>.lbsn.structure.lbsnOrigin origin = 1;</code>
-     * @param \Lbsn\Structure\lbsnOrigin $var
+     * Generated from protobuf field <code>.lbsn.structure.Origin origin = 1;</code>
+     * @param \Lbsn\Structure\Origin $var
      * @return $this
      */
     public function setOrigin($var)
     {
-        GPBUtil::checkMessage($var, \Lbsn\Structure\lbsnOrigin::class);
+        GPBUtil::checkMessage($var, \Lbsn\Structure\Origin::class);
         $this->origin = $var;
 
         return $this;

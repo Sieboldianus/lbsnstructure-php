@@ -9,12 +9,12 @@ use Google\Protobuf\Internal\RepeatedField;
 use Google\Protobuf\Internal\GPBUtil;
 
 /**
- * Generated from protobuf message <code>lbsn.structure.lbsnOrigin</code>
+ * Generated from protobuf message <code>lbsn.structure.Origin</code>
  */
-final class lbsnOrigin extends \Google\Protobuf\Internal\Message
+final class Origin extends \Google\Protobuf\Internal\Message
 {
     /**
-     * Generated from protobuf field <code>.lbsn.structure.lbsnOrigin.OriginID origin_id = 1;</code>
+     * Generated from protobuf field <code>.lbsn.structure.Origin.OriginID origin_id = 1;</code>
      */
     private $origin_id = 0;
     /**
@@ -41,7 +41,7 @@ final class lbsnOrigin extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.lbsn.structure.lbsnOrigin.OriginID origin_id = 1;</code>
+     * Generated from protobuf field <code>.lbsn.structure.Origin.OriginID origin_id = 1;</code>
      * @return int
      */
     public function getOriginId()
@@ -50,13 +50,13 @@ final class lbsnOrigin extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.lbsn.structure.lbsnOrigin.OriginID origin_id = 1;</code>
+     * Generated from protobuf field <code>.lbsn.structure.Origin.OriginID origin_id = 1;</code>
      * @param int $var
      * @return $this
      */
     public function setOriginId($var)
     {
-        GPBUtil::checkEnum($var, \Lbsn\Structure\lbsnOrigin_OriginID::class);
+        GPBUtil::checkEnum($var, \Lbsn\Structure\Origin_OriginID::class);
         $this->origin_id = $var;
 
         return $this;

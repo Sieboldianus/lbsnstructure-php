@@ -9,9 +9,9 @@ use Google\Protobuf\Internal\RepeatedField;
 use Google\Protobuf\Internal\GPBUtil;
 
 /**
- * Generated from protobuf message <code>lbsn.structure.lbsnPost</code>
+ * Generated from protobuf message <code>lbsn.structure.Post</code>
  */
-final class lbsnPost extends \Google\Protobuf\Internal\Message
+final class Post extends \Google\Protobuf\Internal\Message
 {
     /**
      * Primary Key. A unique identifier of the object across networks.
@@ -51,7 +51,7 @@ final class lbsnPost extends \Google\Protobuf\Internal\Message
      */
     private $post_body = '';
     /**
-     * Generated from protobuf field <code>.lbsn.structure.lbsnPost.PostGeoaccuracy post_geoaccuracy = 9;</code>
+     * Generated from protobuf field <code>.lbsn.structure.Post.PostGeoaccuracy post_geoaccuracy = 9;</code>
      */
     private $post_geoaccuracy = 0;
     /**
@@ -95,7 +95,7 @@ final class lbsnPost extends \Google\Protobuf\Internal\Message
      */
     private $post_url = '';
     /**
-     * Generated from protobuf field <code>.lbsn.structure.lbsnPost.PostType post_type = 20;</code>
+     * Generated from protobuf field <code>.lbsn.structure.Post.PostType post_type = 20;</code>
      */
     private $post_type = 0;
     /**
@@ -370,7 +370,7 @@ final class lbsnPost extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.lbsn.structure.lbsnPost.PostGeoaccuracy post_geoaccuracy = 9;</code>
+     * Generated from protobuf field <code>.lbsn.structure.Post.PostGeoaccuracy post_geoaccuracy = 9;</code>
      * @return int
      */
     public function getPostGeoaccuracy()
@@ -379,13 +379,13 @@ final class lbsnPost extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.lbsn.structure.lbsnPost.PostGeoaccuracy post_geoaccuracy = 9;</code>
+     * Generated from protobuf field <code>.lbsn.structure.Post.PostGeoaccuracy post_geoaccuracy = 9;</code>
      * @param int $var
      * @return $this
      */
     public function setPostGeoaccuracy($var)
     {
-        GPBUtil::checkEnum($var, \Lbsn\Structure\lbsnPost_PostGeoaccuracy::class);
+        GPBUtil::checkEnum($var, \Lbsn\Structure\Post_PostGeoaccuracy::class);
         $this->post_geoaccuracy = $var;
 
         return $this;
@@ -612,7 +612,7 @@ final class lbsnPost extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.lbsn.structure.lbsnPost.PostType post_type = 20;</code>
+     * Generated from protobuf field <code>.lbsn.structure.Post.PostType post_type = 20;</code>
      * @return int
      */
     public function getPostType()
@@ -621,13 +621,13 @@ final class lbsnPost extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.lbsn.structure.lbsnPost.PostType post_type = 20;</code>
+     * Generated from protobuf field <code>.lbsn.structure.Post.PostType post_type = 20;</code>
      * @param int $var
      * @return $this
      */
     public function setPostType($var)
     {
-        GPBUtil::checkEnum($var, \Lbsn\Structure\lbsnPost_PostType::class);
+        GPBUtil::checkEnum($var, \Lbsn\Structure\Post_PostType::class);
         $this->post_type = $var;
 
         return $this;
