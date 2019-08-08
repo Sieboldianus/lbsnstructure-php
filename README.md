@@ -1,4 +1,4 @@
-[![packagist](https://lbsn.vgiscience.org/lbsnstructure-php/version.svg)](https://packagist.org/packages/sieboldianus/lbsnstructure) ![pipeline](https://lbsn.vgiscience.org/lbsnstructure-php/pipeline.svg)
+[![packagist](https://lbsn.vgiscience.org/lbsnstructure-php/version.svg)](https://packagist.org/packages/sieboldianus/lbsnstructure) [![pipeline](https://lbsn.vgiscience.org/lbsnstructure-php/pipeline.svg)](https://gitlab.vgiscience.de/lbsn/lbsnstructure-php)
 
 # LBSNSTRUCTURE
 
@@ -17,4 +17,13 @@ composer require sieboldianus/lbsnstructure
 Import to php project with:  
 ```php
 require lbsnPost.php
+```
+
+## Semantic release
+
+We make use of automatic versioning using semantic-release workflow.
+To auto-increase version based on commits, use:
+
+```bash
+semantic-release publish
 ```
