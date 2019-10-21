@@ -1,4 +1,4 @@
-[![packagist](https://lbsn.vgiscience.org/lbsnstructure-php/version.svg)](https://packagist.org/packages/sieboldianus/lbsnstructure) [![pipeline](https://lbsn.vgiscience.org/lbsnstructure-php/pipeline.svg)](https://gitlab.vgiscience.de/lbsn/lbsnstructure-php)
+[![packagist](https://lbsn.vgiscience.org/structure/php/version.svg)](https://packagist.org/packages/sieboldianus/lbsnstructure) [![pipeline](https://lbsn.vgiscience.org/structure/php/pipeline.svg)](https://gitlab.vgiscience.de/lbsn/lbsnstructure-php)
 
 # LBSNSTRUCTURE
 
